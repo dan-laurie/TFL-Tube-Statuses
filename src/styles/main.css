@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  /* margin: 0; */
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.info {
+  color: rgb(206, 206, 206);
+  text-align: center;
+  font-size: 13px;
+}
+body {
+  margin: 0;
+  background-color: rgb(48, 48, 48);
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5%;
+  background-color: rgb(55, 55, 55);
+  max-width: 350px;
+}
+
+.status {
+  /* margin-left: 5px; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h2,
+h3 {
+  margin-left: 10px;
+}
+
+h3 {
+  color: white;
+}
+
+.bakerloo {
+  color: rgb(125, 78, 44);
+}
+
+.central {
+  color: red;
+}
+
+.circle {
+  color: yellow;
+}
+
+.district {
+  color: green;
+}
+
+.hammersmith {
+  color: pink;
+}
+
+.jubilee {
+  color: silver;
+}
+
+.metropolitan {
+  color: purple;
+}
+
+.piccadilly {
+  color: darkblue;
+}
+
+.victoria {
+  color: rgb(68, 159, 220);
+}
+
+.waterloo {
+  color: rgb(140, 206, 190);
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.link {
+  margin-bottom: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.fas {
+  color: red;
+}
+
+.fa-subway {
+  color: rgb(206, 206, 206);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.made {
+  /* margin: 0; */
+  font-size: 13px;
+  text-align: center;
+  color: rgb(206, 206, 206);
+  padding-right: 15px;
+  margin-bottom: 5px;
+}
+
+.cr {
+  font-size: 10px;
+  margin-top: 0;
+  color: rgb(206, 206, 206);
+}
+/* @media (min-width: 900px) { */
+/* .container { */
+/* margin: 50px; */
+/* flex-direction: row; */
+/* max-width: 20%; */
+/* flex-wrap: wrap;
+    max-width: calc(40% - 10px);
+    justify-content: center; */
+/* }
+  .status {
+    max-width: 500px;
+  }
+} */
